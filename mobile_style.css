@@ -1,0 +1,17 @@
+/*
+MOBILE
+*/
+@media only screen and (max-width: 1250px) {
+    .header .logo{
+        width: 70vw;
+    }
+    .newspaperDesktop{
+        display: none;
+    }
+    .newspaperMobile{
+        margin: 15px;
+    }
+    .newspaperMobile img{
+        width: 100%;
+    }
+  }

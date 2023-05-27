@@ -1,0 +1,58 @@
+body{
+    background: #2C1D17;
+    background-image: radial-gradient(#503125 1px, transparent 0);
+    background-size: 10px 10px;
+    background-position: -19px -19px;
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+
+img {
+    -webkit-user-drag: none !important;
+    -khtml-user-drag: none !important;
+    -moz-user-drag: none !important;
+    -o-user-drag: none !important;
+  }
+
+.header{
+    width: 100%;
+    background-color: #1B1A17;
+    text-align: center;
+    color: white;
+}
+
+.header h1{
+    margin: 0;
+    padding: 50px;
+}
+
+@keyframes upAndDown {
+    0% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(0px);
+    }
+    30% {
+    transform: translateY(-20px);
+    }
+    70% {
+    transform: translateY(-20px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.header .logo{
+    width: 30vw;
+    animation: upAndDown 2s infinite;
+}
+
+.wishlist_btn{
+    margin: 25px 0;
+}
